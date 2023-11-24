@@ -36,8 +36,8 @@
                         <uri>https://anypoint.mulesoft.com</uri>
                         <muleVersion>4.4.0</muleVersion>
                         <connectedAppClientId>${client.id}</connectedAppClientId>
-						<connectedAppClientSecret>${client.secret}</connectedAppClientSecret>
-						<connectedAppGrantType>client_credentials</connectedAppGrantType>
+			<connectedAppClientSecret>${client.secret}</connectedAppClientSecret>
+			<connectedAppGrantType>client_credentials</connectedAppGrantType>
                         <applicationName>sample-gitactions</applicationName>
                         <environment>Sandbox</environment>
                         <workerType>MICRO</workerType>
